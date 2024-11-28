@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIO-DATA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>BIO-DATA</h1>
+    </div>
+
+    <div class="image-box">
+        <p>Image</p>
+    </div>
+
+    <div class="container">
+        <section class="personal-data">
+            <h2>Personal Data</h2>
+            <table>
+                <tr><td>Position Desired:</td><td>____________</td><td>Date:</td><td>____________</td></tr>
+                <tr><td>Name:</td><td>____________</td><td>Gender:</td><td>____________</td></tr>
+                <tr><td>City Address:</td><td colspan="3">____________</td></tr>
+                <tr><td>Provincial Address:</td><td colspan="3">____________</td></tr>
+                <tr><td>Telephone:</td><td>____________</td><td>Cellphone:</td><td>____________</td></tr>
+                <tr><td>Email Address:</td><td colspan="3">____________</td></tr>
+                <tr><td>Date of Birth:</td><td>____________</td><td>Birth Place:</td><td>____________</td></tr>
+                <tr><td>Civil Status:</td><td>____________</td><td>Citizenship:</td><td>____________</td></tr>
+                <tr><td>Height:</td><td>____________</td><td>Weight:</td><td>____________</td></tr>
+                <tr><td>Religion:</td><td colspan="3">____________</td></tr>
+                <tr><td>Spouse:</td><td>____________</td><td>Occupation:</td><td>____________</td></tr>
+                <tr><td>Name of Children:</td><td>____________</td><td>Date of Birth:</td><td>____________</td></tr>
+                <tr><td>Father's Name:</td><td>____________</td><td>Occupation:</td><td>____________</td></tr>
+                <tr><td>Mother's Name:</td><td>____________</td><td>Occupation:</td><td>____________</td></tr>
+                <tr><td>Language spoken:</td><td colspan="3">____________</td></tr>
+                <tr><td>Person to be contacted in emergency:</td><td colspan="3">____________</td></tr>
+                <tr><td>His/Her Address & Telephone:</td><td colspan="3">____________</td></tr>
+            </table>
+        </section>
+
+        <section class="education-background">
+            <h2>Educational Background</h2>
+            <table>
+                <tr><td>Elementary:</td><td>____________</td><td>Year Graduated:</td><td>____________</td></tr>
+                <tr><td>High School:</td><td>____________</td><td>Year Graduated:</td><td>____________</td></tr>
+                <tr><td>College:</td><td>____________</td><td>Year Graduated:</td><td>____________</td></tr>
+                <tr><td>Degree Received:</td><td colspan="3">____________</td></tr>
+                <tr><td>Special Skills:</td><td colspan="3">____________</td></tr>
+            </table>
+        </section>
+
+        <section class="employment-record">
+            <h2>Employment Record</h2>
+            <table>
+                <tr><td>Company Name:</td><td>____________</td><td>Position:</td><td>____________</td></tr>
+                <tr><td>From:</td><td>____________</td><td>To:</td><td>____________</td></tr>
+                <tr><td>Company Name:</td><td>____________</td><td>Position:</td><td>____________</td></tr>
+                <tr><td>From:</td><td>____________</td><td>To:</td><td>____________</td></tr>
+            </table>
+        </section>
+
+        <section class="character-reference">
+            <h2>Character Reference</h2>
+            <table>
+                <tr><td>Name:</td><td>____________</td><td>Company:</td><td>____________</td></tr>
+                <tr><td>Contact No.:</td><td>____________</td></tr>
+                <tr><td>Name:</td><td>____________</td><td>Company:</td><td>____________</td></tr>
+                <tr><td>Contact No.:</td><td>____________</td></tr>
+            </table>
+        </section>
+
+        <section class="other-info">
+            <table>
+                <tr><td>Res. Cert. No.:</td><td>____________</td><td>Issued At:</td><td>____________</td></tr>
+                <tr><td>SSS:</td><td>____________</td><td>TIN:</td><td>____________</td></tr>
+                <tr><td>NBI No.:</td><td>____________</td><td>Passport No.:</td><td>____________</td></tr>
+            </table>
+        </section>
+
+        <div class="signature-container">
+            <div class="line-box">
+                <div class="line">I here certify the above information is true and correct to the best of my knowledge and belief. I also understand that any misinterpretation will be considered reason for withdrawal of an offer or subsequent dismissal if employed.</div>
+            </div>
+            <div class="signature">
+                <h3>_______________________</h3>
+                <p>Applicant's Signature</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .image-box {
+        position: absolute;
+        right: 20px; /* Adjust to position it from the right */
+        top: 20px; /* Adjust to position it from the top */
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        color: gray;
+        margin: 0;
+    }
+
+    .container {
+        width: 800px;
+        margin: 0 auto;
+        border: 1px solid black;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        background-color: black;
+        color: white;
+        padding: 5px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table td {
+        padding: 5px;
+        border-bottom: 1px solid black;
+    }
+
+    table td:first-child {
+        width: 25%;
+    }
+
+    table td:nth-child(2), table td:nth-child(4) {
+        width: 25%;
+    }
+
+    .signature-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+
+    .line-box {
+        width: 60%;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .line {
+        font-size: 14px;
+    }
+
+    .signature {
+        width: 30%;
+        text-align: right;
+    }
+
+    .signature h3 {
+        margin-bottom: 5px;
+    }
+
+    .signature p {
+        font-size: 14px;
+    }
+</style>
